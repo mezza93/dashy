@@ -52,11 +52,11 @@ sections:
       - type: domain-monitor
         options:
           domain: scbv.com.au
-          apiKey: dc33f4938089b41008c11eb568b59f5d  
+          apiKey: 80ca503e36506417e56c7753811654fb 
       - type: domain-monitor
         options:
           domain: networkofficesc.com.au
-          apiKey: dc33f4938089b41008c11eb568b59f5d
+          apiKey: 80ca503e36506417e56c7753811654fb
   - name: Weather
     icon: fas fa-cloud-sun-rain
     items:
