@@ -61,10 +61,10 @@ sections:
     description: See domain information
     icon: fas fa-cloud-sun-rain
    widgets:
-    - type: weather
-   options:
-    apiKey: 4a9e68fe001d11d3d8f30d17a1ed2b33
-    city: Aroona
-    units: metric
-    hideDetails: false
+      - type: weather
+      options:
+          apiKey: 4a9e68fe001d11d3d8f30d17a1ed2b33
+          city: Aroona
+          units: metric
+          hideDetails: false
    
