@@ -44,6 +44,10 @@ sections:
     description: Get help with Dashy, raise a bug, or get in contact
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
+ - Name: Domains
+   description: see domain information
+   icon: far fa-hands-helping
+   widgets:
   - type: domain-monitor
     options:
       domain: scbv.com.au
