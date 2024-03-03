@@ -57,14 +57,14 @@ sections:
         options:
           domain: networkofficesc.com.au
           apiKey: 80ca503e36506417e56c7753811654fb
-  - name: Weather
-    description: See domain information
+- name: Weather
+    description: Get the latest weather updates
     icon: fas fa-cloud-sun-rain
-   widgets:
+    widgets:
       - type: weather
-      options:
-          apiKey: 4a9e68fe001d11d3d8f30d17a1ed2b33
-          city: Aroona
-          units: metric
+        options:
+          apiKey: "4a9e68fe001d11d3d8f30d17a1ed2b33"
+          city: "Aroona"
+          units: "metric"
           hideDetails: false
    
