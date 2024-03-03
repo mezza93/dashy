@@ -44,4 +44,11 @@ sections:
     description: Get help with Dashy, raise a bug, or get in contact
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
-  
+  - type: domain-monitor
+    options:
+      domain: scbv.com.au
+      apiKey: dc33f4938089b41008c11eb568b59f5d  
+  - type: domain-monitor
+    options:
+      domain: networkofficesc.com.au
+      apiKey: dc33f4938089b41008c11eb568b59f5d  
