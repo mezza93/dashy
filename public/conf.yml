@@ -1,58 +1,66 @@
----
 # Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Dashy
   description: Welcome to your new dashboard!
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
 
 # Optional app settings and configuration
 appConfig:
   theme: colorful
+  layout: auto # Automatically arrange items based on screen size
+  language: en # Specify default language as English
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
- - Name: Domains
-   description: see domain information
-   icon: far fa-hands-helping
-   widgets:
-  - type: domain-monitor
-    options:
-      domain: scbv.com.au
-      apiKey: dc33f4938089b41008c11eb568b59f5d  
-  - type: domain-monitor
-    options:
-      domain: networkofficesc.com.au
-      apiKey: dc33f4938089b41008c11eb568b59f5d  
+  - name: Getting Started
+    icon: fas fa-rocket
+    items:
+      - title: Dashy Live
+        description: Development and project management links for Dashy
+        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+        url: https://live.dashy.to/
+        target: newtab
+      - title: GitHub
+        description: Source Code, Issues, and Pull Requests
+        url: https://github.com/lissy93/dashy
+        icon: fab fa-github # Using Font Awesome icon class
+      - title: Docs
+        description: Configuring & Usage Documentation
+        provider: Dashy.to
+        icon: far fa-book
+        url: https://dashy.to/docs
+      - title: Showcase
+        description: See how others are using Dashy
+        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
+        icon: far fa-grin-hearts
+      - title: Config Guide
+        description: See full list of configuration options
+        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+        icon: fas fa-wrench
+      - title: Support
+        description: Get help with Dashy, raise a bug, or get in contact
+        url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
+        icon: far fa-hands-helping
+  - name: Domains # Corrected indentation and case consistency
+    description: See domain information
+    icon: fas fa-globe-americas # Updated icon for relevance
+    widgets:
+      - type: domain-monitor
+        options:
+          domain: scbv.com.au
+          apiKey: dc33f4938089b41008c11eb568b59f5d  
+      - type: domain-monitor
+        options:
+          domain: networkofficesc.com.au
+          apiKey: dc33f4938089b41008c11eb568b59f5d
+  - name: Weather
+    icon: fas fa-cloud-sun-rain
+    items:
+      - title: Local Weather
+        description: Get the latest weather updates
+        icon: fas fa-temperature-low
+        url: https://weather.com
