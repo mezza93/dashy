@@ -45,9 +45,9 @@ sections:
         description: Get help with Dashy, raise a bug, or get in contact
         url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
         icon: far fa-hands-helping
-  - name: Domains # Corrected indentation and case consistency
+  - name: Domains
     description: See domain information
-    icon: fas fa-globe-americas # Updated icon for relevance
+    icon: fas fa-globe-americas
     widgets:
       - type: domain-monitor
         options:
@@ -57,7 +57,7 @@ sections:
         options:
           domain: networkofficesc.com.au
           apiKey: 80ca503e36506417e56c7753811654fb
-- name: Weather
+  - name: Weather
     description: Get the latest weather updates
     icon: fas fa-cloud-sun-rain
     widgets:
@@ -67,4 +67,4 @@ sections:
           city: "Aroona"
           units: "metric"
           hideDetails: false
-   
+
