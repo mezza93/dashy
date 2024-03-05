@@ -71,6 +71,7 @@ sections:
   - name: Health Monitoring
     description: Monitor the health of our projects with HealthChecks.io
     icon: fas fa-heartbeat
+    widgets:
     items:
       - type: HealthChecks
         options:
