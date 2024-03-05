@@ -78,6 +78,7 @@ sections:
           host: https://healthchecks.io
           apiKey:
             - G2ySXjIqbI--Cs7w_x-_8uW8gTkVnGEC
+            - rzQFIEWuyYcT32N78fLEDQ
 
 # Example of adding a footer (optional)
 footer:
