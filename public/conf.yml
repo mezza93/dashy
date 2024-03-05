@@ -67,4 +67,18 @@ sections:
           city: "Aroona"
           units: "metric"
           hideDetails: false
+          # New section for Health Monitoring
+  - name: Health Monitoring
+    description: Monitor the health of our projects with HealthChecks.io
+    icon: fas fa-heartbeat
+    items:
+      - type: HealthChecks
+        options:
+          host: https://healthchecks.io
+          apiKey:
+            - G2ySXjIqbI--Cs7w_x-_8uW8gTkVnGEC
+
+# Example of adding a footer (optional)
+footer:
+  text: "Your custom footer text here. © 2024 Dashy Dashboard."
 
